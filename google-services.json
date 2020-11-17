@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "670198710869",
+    "firebase_url": "https://kirgu-clients-app.firebaseio.com",
+    "project_id": "kirgu-clients-app",
+    "storage_bucket": "kirgu-clients-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670198710869:android:d5a6f871f2dcbe7d454adc",
+        "android_client_info": {
+          "package_name": "com.kirgu.ru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "670198710869-lb7b9u9f8f99co0s254f6mhosnk8dhbc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4voT9IvHZuZVz64DsCc0KOrxt1uQvv9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "670198710869-lb7b9u9f8f99co0s254f6mhosnk8dhbc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "670198710869-pfb971toscbeahavdt1vbsem172thaku.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kirgu.ru",
+                "app_store_id": "1458953214"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

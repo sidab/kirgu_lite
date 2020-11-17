@@ -1,0 +1,49 @@
+{
+  "_from": "git+https://github.com/mljsgto222/Cordova_Plugin_AudioRecorder.git",
+  "_id": "cordova_plugin_audiorecorder@1.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova_plugin_audiorecorder",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/mljsgto222/Cordova_Plugin_AudioRecorder.git",
+    "rawSpec": "https://github.com/mljsgto222/Cordova_Plugin_AudioRecorder.git",
+    "saveSpec": "git+https://github.com/mljsgto222/Cordova_Plugin_AudioRecorder.git",
+    "fetchSpec": "https://github.com/mljsgto222/Cordova_Plugin_AudioRecorder.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/mljsgto222/Cordova_Plugin_AudioRecorder.git#d2685aa524edcad761f98f25247ed5e5711c60b7",
+  "_spec": "https://github.com/mljsgto222/Cordova_Plugin_AudioRecorder.git",
+  "_where": "/Users/umakhan/WebstormProjects/kirgu_lite",
+  "author": {
+    "name": "zhengz"
+  },
+  "bugs": {
+    "url": "https://github.com/mljsgto222/Cordova_Plugin_AudioRecorder/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "This is a cordova plugin for audio recording",
+  "homepage": "https://github.com/mljsgto222/Cordova_Plugin_AudioRecorder#readme",
+  "keywords": [
+    "cordova",
+    "audio",
+    "LAME",
+    "MP3"
+  ],
+  "license": "MIT",
+  "name": "cordova_plugin_audiorecorder",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mljsgto222/Cordova_Plugin_AudioRecorder.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

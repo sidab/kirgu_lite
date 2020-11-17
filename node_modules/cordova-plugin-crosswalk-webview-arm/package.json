@@ -1,0 +1,76 @@
+{
+  "_from": "cordova-plugin-crosswalk-webview-arm@3.1.0",
+  "_id": "cordova-plugin-crosswalk-webview-arm@3.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-ocmI7SyfADWVgsFe7Vac9V9GlWSlW5bqiPocDFA5ik516R7us8e5fUdK34qNgtKhTrFQeLs3D1akpKapk9qoHA==",
+  "_location": "/cordova-plugin-crosswalk-webview-arm",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "cordova-plugin-crosswalk-webview-arm@3.1.0",
+    "name": "cordova-plugin-crosswalk-webview-arm",
+    "escapedName": "cordova-plugin-crosswalk-webview-arm",
+    "rawSpec": "3.1.0",
+    "saveSpec": null,
+    "fetchSpec": "3.1.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-crosswalk-webview-arm/-/cordova-plugin-crosswalk-webview-arm-3.1.0.tgz",
+  "_shasum": "55c6bb93fbfa09059154c05722cc9620ae934868",
+  "_spec": "cordova-plugin-crosswalk-webview-arm@3.1.0",
+  "_where": "/Users/umakhan/WebstormProjects/kirgu_lite",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/yanglb/cordova-plugin-crosswalk-webview-arm/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-crosswalk-webview-arm",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Changes the default WebView to CrossWalk",
+  "engines": {
+    "cordovaDependencies": {
+      "2.0.0": {
+        "cordova": ">=5.2.0",
+        "cordova-android": "4 - 5"
+      },
+      "2.1.0": {
+        "cordova": ">=5.2.0",
+        "cordova-android": "4 - 5"
+      },
+      "2.2.0": {
+        "cordova": ">=5.2.0",
+        "cordova-android": ">=6"
+      },
+      "3.0.0": {
+        "cordova": ">=8.0.0",
+        "cordova-android": ">=7"
+      }
+    }
+  },
+  "homepage": "https://github.com/yanglb/cordova-plugin-crosswalk-webview-arm",
+  "keywords": [
+    "cordova",
+    "chromium",
+    "crosswalk",
+    "webview",
+    "engine",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "Apache 2.0",
+  "name": "cordova-plugin-crosswalk-webview-arm",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanglb/cordova-plugin-crosswalk-webview-arm.git"
+  },
+  "version": "3.1.0"
+}

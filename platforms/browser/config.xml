@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.kirgu.ru" version="30.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Киргу</name>
+    <description>
+        Приложение для клиентов компании киргу.
+    </description>
+    <author email="umakhanr7@yandex.ru" href="mailto:umakhanr7@yandex.ru">Umakhan Magomedov</author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <edit-config file="*-Info.plist" mode="merge" platform="ios" target="NSCameraUsageDescription">
+        <string>Нам необходим доступ к вашей камере для использования приложения и сканирования штрих кодов..</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" platform="ios" target="NSLocationAlwaysUsageDescription">
+        <string>Нам необходим доступ к вашему местоположению для того чтобы вы могли указать свой адрес.</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" platform="ios" target="NSLocationWhenInUseUsageDescription">
+        <string>Нам необходим доступ к вашему местоположению для того чтобы вы могли указать свой адрес.</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="NSLocationWhenInUseUsageDescription">
+        <string>Нам необходим доступ к вашему местоположению для того чтобы вы могли указать свой адрес.</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="NSMicrophoneUsageDescription">
+        <string>Нам необходим доступ к вашему микрофону для записи голоса</string>
+    </edit-config>
+    <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
+    <preference name="WKWebViewOnly" value="true" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="fullscreen" value="false" />
+    <preference name="orientation" value="portrait" />
+    <preference name="BackgroundColor" value="0xffffffff" />
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="FadeSplashScreen" value="false" />
+    <preference name="SplashScreenBackgroundColor" value="0xffffffff" />
+    <preference name="phonegap-version" value="cli-9.0.0" />
+    <preference name="android-minSdkVersion" value="19" />
+    <preference name="android-targetSdkVersion" value="29" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#FFFFFF" />
+    <preference name="StatusBarTextColor" value="#000000" />
+    <preference name="StatusBarStyle" value="default" />
+    <preference name="InterceptRemoteRequests" value="all" />
+</widget>

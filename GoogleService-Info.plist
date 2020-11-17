@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>670198710869-pfb971toscbeahavdt1vbsem172thaku.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.670198710869-pfb971toscbeahavdt1vbsem172thaku</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCMVEGm64Zv68j3FMYTndUg71kEHZ-Mg-c</string>
+	<key>GCM_SENDER_ID</key>
+	<string>670198710869</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.kirgu.ru</string>
+	<key>PROJECT_ID</key>
+	<string>kirgu-clients-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>kirgu-clients-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:670198710869:ios:6e424dddb6daa14d454adc</string>
+	<key>DATABASE_URL</key>
+	<string>https://kirgu-clients-app.firebaseio.com</string>
+</dict>
+</plist>

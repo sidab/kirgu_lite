@@ -1,0 +1,13 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Киргу",
+  "short_name": "Киргу",
+  "version": "com.kirgu.ru",
+  "description": "Приложение для клиентов компании киргу.",
+  "author": "Umakhan Magomedov",
+  "icons": [],
+  "orientation": "portrait",
+  "start_url": "index.html",
+  "theme_color": "#FFFFFF"
+}
