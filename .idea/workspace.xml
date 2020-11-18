@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a902cbb-c26c-45f9-b753-93b562448863" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +45,29 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Run PhoneGap" type="PhoneGap" factoryName="PhoneGap/Cordova" nameIsGenerated="true">
+      <option name="myExecutable" value="/usr/local/bin/phonegap" />
+      <option name="myWorkDir" value="$PROJECT_DIR$" />
+      <option name="myCommand" value="serve" />
+      <option name="myPassParent" value="true" />
+      <option name="myPlatform" value="browser" />
+      <option name="myExtraArgs" value="" />
+      <option name="hasTarget" value="false" />
+      <option name="target" value="" />
+      <method v="2">
+        <option name="PhonegapTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -53,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605616742161</updated>
-      <workItem from="1605616743355" duration="403000" />
+      <workItem from="1605616743355" duration="1294000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1605616776350</created>
@@ -90,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605617100359</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix">
+      <created>1605617164291</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605617164291</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,18 +143,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1353" y="122" key="CommitChangelistDialog2" timestamp="1605617096687">
+    <state x="-1496" y="202" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605618625086">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="-1353" y="122" key="CommitChangelistDialog2/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605617096687" />
+    <state x="-1496" y="202" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605618625086" />
+    <state x="-1353" y="122" key="CommitChangelistDialog2" timestamp="1605617164123">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1353" y="122" key="CommitChangelistDialog2/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605617164123" />
     <state x="-1080" y="461" key="VCS.EditChangelistDialog" timestamp="1605616948650">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1080" y="461" key="VCS.EditChangelistDialog/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605616948650" />
-    <state x="-1360" y="280" key="Vcs.Push.Dialog.v2" timestamp="1605617111543">
+    <state x="-1360" y="280" key="Vcs.Push.Dialog.v2" timestamp="1605617167867">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="-1360" y="280" key="Vcs.Push.Dialog.v2/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605617111543" />
+    <state x="-1360" y="280" key="Vcs.Push.Dialog.v2/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605617167867" />
     <state x="-1161" y="281" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1605616932309">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
