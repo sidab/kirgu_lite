@@ -1,6 +1,22 @@
 document.addEventListener('deviceready', function () {
 
-    initConfig();
+    if (localStorage.getItem('kirgu_lite') === undefined || localStorage.getItem('kirgu_lite') === null) {
+
+        localStorage.setItem('kirgu_lite', 'true');
+
+        localStorage.clear();
+
+        localforage.clear().then(function () {
+
+            initConfig();
+
+        });
+
+    } else {
+
+        initConfig();
+
+    }
 
 }, false);
 
@@ -16,11 +32,23 @@ let jsLoaded = false;
 
 function initConfig() {
 
-    if (localStorage.getItem('config') && localStorage.getItem('css') && localStorage.getItem('js')) {
+    if (localStorage.getItem('config')) {
 
-        initCss();
+        try {
 
-        initJs();
+            initCss();
+
+            initJs();
+
+        } catch (error) {
+
+            console.log(error);
+
+            localStorage.removeItem('config');
+
+            initConfig();
+
+        }
 
         loadConfig(function () {
 
@@ -152,11 +180,11 @@ function loadCss(callback) {
 
             try {
 
-                css = css.replaceAll('../themes/kirgu/assets/app//', '');
+                css = css.replaceAll('../themes/hikma/assets/app//', '');
 
             } catch (error) {
 
-                css = css.replace(/..\/themes\/kirgu\/assets\/app\/\//g, '');
+                css = css.replace(/..\/themes\/hikma\/assets\/app\/\//g, '');
 
             }
 
