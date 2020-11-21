@@ -8,7 +8,8 @@
     "onesignal-cordova-plugin": "2.11.1",
     "cordova-plugin-camera": "4.1.0",
     "com.mljsgto222.cordova.plugin.audiorecorder": "https://github.com/mljsgto222/Cordova_Plugin_AudioRecorder.git",
-    "cordova-plugin-geolocation": "^4.0.2"
+    "cordova-plugin-geolocation": "^4.0.2",
+    "cordova-plugin-splashscreen": "6.0.0"
   },
   "cordova": {
     "plugins": {
@@ -30,7 +31,8 @@
       "cordova-plugin-firebase-analytics": {
         "ANALYTICS_COLLECTION_ENABLED": "true",
         "AUTOMATIC_SCREEN_REPORTING_ENABLED": "true"
-      }
+      },
+      "cordova-plugin-splashscreen": {}
     },
     "platforms": [
       "browser"

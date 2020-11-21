@@ -23,6 +23,7 @@
     <edit-config file="*-Info.plist" mode="merge" target="NSMicrophoneUsageDescription">
         <string>Нам необходим доступ к вашему микрофону для записи голоса</string>
     </edit-config>
+    <icon src="www/icon.png" />
     <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
     <preference name="WKWebViewOnly" value="true" />
     <preference name="DisallowOverscroll" value="true" />

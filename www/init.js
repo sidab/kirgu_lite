@@ -118,13 +118,15 @@ function addStyles() {
 
     try {
 
-        let css = localStorage.getItem('css');
+        localforage.getItem('css').then(function (css) {
 
-        let style = document.createElement('style');
+            let style = document.createElement('style');
 
-        style.appendChild(document.createTextNode(css));
+            style.appendChild(document.createTextNode(css));
 
-        document.getElementsByTagName('head')[0].appendChild(style);
+            document.getElementsByTagName('head')[0].appendChild(style);
+
+        });
 
     } catch (error) {
 
@@ -158,17 +160,19 @@ function loadCss(callback) {
 
             }
 
-            localStorage.setItem('css', css);
+            localforage.setItem('css', css).then(function () {
 
-            cssLoaded = true;
+                cssLoaded = true;
 
-            document.dispatchEvent(cssLoadedEvent);
+                document.dispatchEvent(cssLoadedEvent);
 
-            if (callback) {
+                if (callback) {
 
-                callback();
+                    callback();
 
-            }
+                }
+
+            });
 
         }
 
@@ -182,23 +186,25 @@ function loadCss(callback) {
 
 function initJs() {
 
-    let js = localStorage.getItem('js');
+    localforage.getItem('js').then(function (js) {
 
-    try {
+        try {
 
-        eval(js);
+            eval(js);
 
-    } catch (error) {
+        } catch (error) {
 
-        console.log(error);
+            console.log(error);
 
-        setTimeout(function() {
+            setTimeout(function() {
 
-            alert('Произошла ошибка, пожалуйста попробуйте перезапустить приложение.');
+                alert('Произошла ошибка, пожалуйста попробуйте перезапустить приложение.');
 
-        }, 1);
+            }, 1);
 
-    }
+        }
+
+    });
 
 }
 
@@ -214,17 +220,19 @@ function loadJs(callback) {
 
             let js = this.responseText;
 
-            localStorage.setItem('js', js);
+            localforage.setItem('js', js).then(function () {
 
-            jsLoaded = true;
+                jsLoaded = true;
 
-            document.dispatchEvent(jsLoadedEvent);
+                document.dispatchEvent(jsLoadedEvent);
 
-            if (callback) {
+                if (callback) {
 
-                callback();
+                    callback();
 
-            }
+                }
+
+            });
 
         }
 

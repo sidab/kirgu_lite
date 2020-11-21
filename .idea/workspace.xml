@@ -21,8 +21,16 @@
   <component name="ChangeListManager">
     <list default="true" id="9a902cbb-c26c-45f9-b753-93b562448863" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/init.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605616742161</updated>
-      <workItem from="1605616743355" duration="1294000" />
+      <workItem from="1605616743355" duration="3213000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1605616776350</created>
@@ -121,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605617164291</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix">
+      <created>1605678901573</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605678901573</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,18 +162,34 @@
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1496" y="202" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605618625086" />
-    <state x="-1353" y="122" key="CommitChangelistDialog2" timestamp="1605617164123">
+    <state x="-1353" y="122" key="CommitChangelistDialog2" timestamp="1605678901373">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="-1353" y="122" key="CommitChangelistDialog2/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605617164123" />
+    <state x="-1353" y="122" key="CommitChangelistDialog2/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605678901373" />
+    <state width="1899" height="305" key="GridCell.Tab.0.bottom" timestamp="1605946055942">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="305" key="GridCell.Tab.0.bottom/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605946055942" />
+    <state width="1899" height="305" key="GridCell.Tab.0.center" timestamp="1605946055938">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="305" key="GridCell.Tab.0.center/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605946055938" />
+    <state width="1899" height="305" key="GridCell.Tab.0.left" timestamp="1605946055937">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="305" key="GridCell.Tab.0.left/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605946055937" />
+    <state width="1899" height="305" key="GridCell.Tab.0.right" timestamp="1605946055940">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="305" key="GridCell.Tab.0.right/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605946055940" />
     <state x="-1080" y="461" key="VCS.EditChangelistDialog" timestamp="1605616948650">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1080" y="461" key="VCS.EditChangelistDialog/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605616948650" />
-    <state x="-1360" y="280" key="Vcs.Push.Dialog.v2" timestamp="1605617167867">
+    <state x="-1360" y="280" key="Vcs.Push.Dialog.v2" timestamp="1605678905863">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="-1360" y="280" key="Vcs.Push.Dialog.v2/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605617167867" />
+    <state x="-1360" y="280" key="Vcs.Push.Dialog.v2/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605678905863" />
     <state x="-1161" y="281" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1605616932309">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
