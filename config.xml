@@ -53,6 +53,9 @@
                 <string>ru</string>
             </array>
         </edit-config>
+        <config-file parent="UIUserInterfaceStyle" platform="ios" target="*-Info.plist">
+            <string>Light</string>
+        </config-file>
         <icon height="1024" src="www/res/icon/ios/icon-1024.png" width="1024" />
         <icon height="29" src="www/res/icon/ios/icon-small.png" width="29" />
         <icon height="58" src="www/res/icon/ios/icon-small@2x.png" width="58" />
