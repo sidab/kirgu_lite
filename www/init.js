@@ -1,20 +1,20 @@
 document.addEventListener('deviceready', function () {
 
-    if (localStorage.getItem('kirgu_lite') === undefined || localStorage.getItem('kirgu_lite') === null) {
+    if (localStorage.getItem('kirgu_lite')) {
 
-        localStorage.setItem('kirgu_lite', 'true');
-
-        localStorage.clear();
-
-        localforage.clear().then(function () {
-
-            initConfig();
-
-        });
+        initConfig();
 
     } else {
 
-        initConfig();
+        localStorage.setItem('kirgu_lite', 'true');
+
+        localforage.clear().then(function () {
+
+            localStorage.clear();
+
+            location.reload();
+
+        });
 
     }
 
