@@ -6,11 +6,11 @@ document.addEventListener('deviceready', function () {
 
     } else {
 
-        localStorage.setItem('kirgu_lite', 'true');
-
         localforage.clear().then(function () {
 
             localStorage.clear();
+
+            localStorage.setItem('kirgu_lite', 'true');
 
             location.reload();
 
