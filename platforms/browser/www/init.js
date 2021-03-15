@@ -130,7 +130,9 @@ function loadConfig(callback) {
 
     };
 
-    xhttp.open('GET', 'http://kirgu.tmweb.ru/api/config', true);
+    xhttp.open('GET', 'http://api.kirgu.ru/api/config', true);
+
+    //xhttp.open('GET', 'http://kirgu.tmweb.ru/api/config', true);
 
     xhttp.send();
 
@@ -158,9 +160,37 @@ function addStyles() {
 
     } catch (error) {
 
-        alert('Произошла ошибка, пожалуйста попробуйте перезапустить приложение.');
-
         console.log(error);
+
+        localforage.getItem('old_css').then(function (old_css) {
+
+            try {
+
+                let style = document.createElement('style');
+
+                style.appendChild(document.createTextNode(old_css));
+
+                document.getElementsByTagName('head')[0].appendChild(style);
+
+                localforage.setItem('css', old_css);
+
+            } catch (error) {
+
+                setTimeout(function () {
+
+                    location.reload();
+
+                }, 5000);
+
+            }
+
+        });
+
+        setTimeout(function() {
+
+            location.reload();
+
+        }, 5000);
 
     }
 
@@ -180,25 +210,33 @@ function loadCss(callback) {
 
             try {
 
-                css = css.replaceAll('../themes/hikma/assets/app//', '');
+                css = css.replaceAll('../themes/kirgu/assets//', '');
 
             } catch (error) {
 
-                css = css.replace(/..\/themes\/hikma\/assets\/app\/\//g, '');
+                css = css.replace(/..\/themes\/kirgu\/assets\/\//g, '');
 
             }
 
-            localforage.setItem('css', css).then(function () {
+            localforage.getItem('css').then(function (old_css) {
 
-                cssLoaded = true;
+                localforage.setItem('old_css', old_css).then(function () {
 
-                document.dispatchEvent(cssLoadedEvent);
+                    localforage.setItem('css', css).then(function () {
 
-                if (callback) {
+                        cssLoaded = true;
 
-                    callback();
+                        document.dispatchEvent(cssLoadedEvent);
 
-                }
+                        if (callback) {
+
+                            callback();
+
+                        }
+
+                    });
+
+                });
 
             });
 
@@ -224,11 +262,25 @@ function initJs() {
 
             console.log(error);
 
-            setTimeout(function() {
+            localforage.getItem('old_js').then(function (old_js) {
 
-                alert('Произошла ошибка, пожалуйста попробуйте перезапустить приложение.');
+                try {
 
-            }, 1);
+                    eval(old_js);
+
+                    localforage.setItem('js', old_js);
+
+                } catch (error) {
+
+                    setTimeout(function () {
+
+                        location.reload();
+
+                    }, 5000);
+
+                }
+
+            });
 
         }
 
@@ -248,17 +300,25 @@ function loadJs(callback) {
 
             let js = this.responseText;
 
-            localforage.setItem('js', js).then(function () {
+            localforage.getItem('js').then(function (old_js) {
 
-                jsLoaded = true;
+                localforage.setItem('old_js', old_js).then(function () {
 
-                document.dispatchEvent(jsLoadedEvent);
+                    localforage.setItem('js', js).then(function () {
 
-                if (callback) {
+                        jsLoaded = true;
 
-                    callback();
+                        document.dispatchEvent(jsLoadedEvent);
 
-                }
+                        if (callback) {
+
+                            callback();
+
+                        }
+
+                    });
+
+                });
 
             });
 

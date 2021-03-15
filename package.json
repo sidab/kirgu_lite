@@ -36,11 +36,13 @@
       "cordova-plugin-ionic-webview": {}
     },
     "platforms": [
-      "browser"
+      "browser",
+      "ios"
     ]
   },
   "dependencies": {
     "cordova-browser": "^6.0.0",
+    "cordova-ios": "^6.1.1",
     "cordova-plugin-crosswalk-webview-arm": "^3.1.0",
     "cordova-plugin-firebase-analytics": "5.0.0"
   }
